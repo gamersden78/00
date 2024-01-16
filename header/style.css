@@ -1,0 +1,54 @@
+body{
+    font-family: sans-serif;
+    color: whitesmoke;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #070720;
+}
+#middle ul li a{
+    text-decoration: none;
+   color: white;
+   font-weight: 500;
+
+}
+#right a{
+    word-spacing: 2%;
+}
+
+ul li{
+    padding-top: 2%;
+    list-style: none;
+    display: inline;
+    padding: 20px;
+}
+
+header img{
+    width: 20px;
+    height: 20px;
+}
+
+nav #left{
+    margin-left: 20px;
+    margin-top: 12px;
+}
+
+.red{
+    color: red;
+}
+nav #right{
+    padding-top: 1%;
+    padding: 20px;
+}
+#middle ul li a span.bgclr{
+    background-color: red;
+    box-sizing: border-box;
+    padding:20px 20px;
+}
